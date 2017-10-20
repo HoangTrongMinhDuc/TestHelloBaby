@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "980388392722",
+    "firebase_url": "https://videoyoutube-76c8e.firebaseio.com",
+    "project_id": "videoyoutube-76c8e",
+    "storage_bucket": "videoyoutube-76c8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980388392722:android:56f195e65a81577e",
+        "android_client_info": {
+          "package_name": "com.hoangtrongminhduc.html5.dev.testhellobaby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980388392722-ig422aehcv5apommtgfve2iqd5k1ehe3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoangtrongminhduc.html5.dev.testhellobaby",
+            "certificate_hash": "46f6338918e578cbbd9405281899c4c5f6a80262"
+          }
+        },
+        {
+          "client_id": "980388392722-a7h9c8o97t51jan1gnrro12ud5p4iful.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADz9gTbm1qHvfi67yAMNoziW5fHVsh1TE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980388392722-a7h9c8o97t51jan1gnrro12ud5p4iful.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
