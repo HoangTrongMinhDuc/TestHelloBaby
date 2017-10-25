@@ -1,4 +1,4 @@
-package com.hoangtrongminhduc.html5.dev.testhellobaby;
+package com.hoangtrongminhduc.html5.dev.testhellobaby.VideoYoutube;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,8 @@ import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
+import com.hoangtrongminhduc.html5.dev.testhellobaby.MainActivity;
+import com.hoangtrongminhduc.html5.dev.testhellobaby.R;
 
 public class PlayerVideo extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
     private YouTubePlayerView ytPlayer;
@@ -27,8 +29,8 @@ public class PlayerVideo extends YouTubeBaseActivity implements YouTubePlayer.On
         ytPlayer = (YouTubePlayerView) findViewById(R.id.ytPlayer);
         ytPlayer.initialize(API_KEY_YT, this);
         final Intent intent = getIntent();
-        id = intent.getStringExtra(MainActivity.ID);
-        title = intent.getStringExtra(MainActivity.TITLE);
+        id = intent.getStringExtra("ID");
+        title = intent.getStringExtra("TITLE");
         tvTieude = (TextView)findViewById(R.id.tvTieude);
         btnBack = (Button)findViewById(R.id.btnBack);
         btnBack.setOnClickListener(new View.OnClickListener() {

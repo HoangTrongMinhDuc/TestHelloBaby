@@ -1,12 +1,10 @@
-package com.hoangtrongminhduc.html5.dev.testhellobaby;
-
-import java.io.Serializable;
+package com.hoangtrongminhduc.html5.dev.testhellobaby.VideoYoutube;
 
 /**
  * Created by HTML5 on 19/10/2017.
  */
 
-public class Video implements Serializable{
+public class Video{
     private String id;
     private String title;
     public Video(){
